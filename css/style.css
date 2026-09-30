@@ -9,11 +9,19 @@ body{
     background-color: #f4f4f9;
 }
 
+.logo {
+    font-size: x-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #ebc700;
+}
+
 .navbar {
     display: flex;
     flex-direction: column;
     align-items: center;
     background-color: #2c3e50;
+    gap: 1rem;
+    padding: 1rem;
 }
 
 .nav-links {
@@ -21,6 +29,13 @@ body{
     flex-direction: row;
     gap: 1rem;
     list-style: none;
+}
+
+h1{
+    color: #05002e;
+    text-decoration-style: solid;
+    text-align: center;
+    padding: 1rem;
 }
 
 .nav-links a{
@@ -32,12 +47,16 @@ body{
     flex-direction: column;
     margin: 0 auto;
     max-width: 1100px;
+    gap: 1rem;
+    padding: 1rem;
 }
 
 .bio-hero{
     flex-basis:100%;
     background-color: #fff;
     border-radius: 8px;
+    padding: 2rem;
+
 }
 
 .card-grid{
@@ -58,6 +77,18 @@ body{
 
 .card:hover {
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);;
+}
+
+footer{
+    background-color: #2c3e50;
+}
+
+.p-footer{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #ebc700;
+    text-align: center;
+    padding: 1rem;
+
 }
 
 
